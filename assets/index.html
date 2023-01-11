@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <div class="counterContainer">
+            <p>Counter</p>
+            <p id="output"></p>
+            <div class="buttonContainer">
+                <div>
+                    <button onclick="calculate(1)">+1</button>
+                    <button onclick="calculate(-1)">-1</button>
+                </div>
+                <div>
+                    <button onclick="calculate(10)">+10</button>
+                    <button onclick="calculate(-10)">-10</button>
+                </div>
+                <div>
+                    <button onclick="calculate(100)">+100</button>
+                    <button onclick="calculate(-100)">-100</button>
+                </div>
+                <div>
+                    <button onclick="reset()">Reset</button>
+                    <button onclick="timesTwo()">*2</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
